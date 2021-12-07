@@ -1,0 +1,10 @@
+---
+# filebeat-role config
+- name: Configure filebeat
+  become: true
+  template:
+    src: filebeat.yml.j2
+    mode: 0644
+    dest: /etc/filebeat/filebeat.yml
+  notify: restart filebeat
+
