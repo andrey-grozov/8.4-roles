@@ -23,7 +23,7 @@
 
 #### 3.Создать новый каталог с ролью при помощи ansible-galaxy role init kibana-role.
     
-    ├── filebeat-role
+    ├── kibana-role
     │   ├── defaults
     │   │   └── main.yml
     │   ├── files
@@ -41,7 +41,7 @@
     │   │   ├── main.yml
     │   │   └── precheck.yml
     │   ├── templates
-    │   │   └── filebeat.yml.j2
+    │   │   └── kibana.yml.j2
     │   ├── tests
     │   │   ├── inventory
     │   │   └── test.yml
